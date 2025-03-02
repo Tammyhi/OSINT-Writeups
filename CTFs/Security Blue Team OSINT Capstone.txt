@@ -11,32 +11,39 @@ Investigation into MSP data breach. Clear web investigation team.
 ===============================++===============================
 
 
-Known Info:
+Objective
 =================
-Twitter Handle: @sp1ritfyre
+I had to find the below information on a person given their Twitter handle: @sp1ritfyre
 
-Required Info:
+Information
 =================
-[1] First Name:
-[2] Last Name:
-[3] Age:
-[4] Country:
-[5] Interests (5 minimum):
-[6] Hacker's employer (company name):
-[7] Hacker's position within company:
-
-Online Presence:
-=================================
-[8] Self-Owned Website (Hacker owns the domain):
+[1] First Name: Sam (nickname is Sammie)
+[2] Last Name: Woods
+[3] Age: 23
+[4] Country: UK
+[5] Interests (5 minimum): Security, Programming, Technology, Gaming, Photography, Camping, Ready Player One 2018, The Beatles, Rolling Stones, Queen, The Hunger Games series
+[6] Hacker's employer (company name): PhilmanSecurityInc
+[7] Hacker's position within company: Junior Penetration Tester
+[8] Self-Owned Website (Hacker owns the domain): https://redhunt.net/secret-login/
 [9] Other Websites (Person does not own the domain, such as blogs):
+    https://www.blogger.com/profile/08313689826885886832
+    https://sammiewoodsec.blogspot.com/2019/
+    https://github.com/SammieWoodSec
+[10] Any URLs of webpages that directly tie individual to MSP breach: None found
+[11] What email addresses have been used by the hacker? d1ved33p@gmail.com
 
-Evidence Collection:
-=================================
-[10] Any URLs of webpages that directly tie individual to MSP breach:
+Process
+=================
+The only notable information on Sam's Twitter profile was a link to Cmvkahvudc5uzxqk.xyz. 
+I spent some time trying to get information about her from websites that analyzed that domain name, but it wasn't fruitful.
+After seeing an afternic(website for buying domains) verification code in that domain's DNS text records I attempted to get access to her email to access her afternic account when I realized this would not be feasible for a public challenge and would not count as OSINT.
+Ultimately, this seemed like a red herring.
 
-Email Addresses Utilised:
-=================================
-[11] What email addresses have been used by the hacker? (2)
+Next, I googled her handle and found her blogger page which revealed her email(d1ved33p@gmail.com).
+Googling her email led me to her Blogspot page, where I found a majority of the needed information.
+I reverse Google image searched Sam's profile picture, but it seemed to be a generic picture that was used by lots of users.
+I eventually found the website she owned(RedHunt) when I circled back to the search results for her handle.
 
+I did not find any webpages that directly tied Sam to MSP Breach, but it seemed that this information was not needed to complete the challenge.
 ===============================++===============================
 
